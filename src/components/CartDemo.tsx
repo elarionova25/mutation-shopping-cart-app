@@ -71,7 +71,7 @@ export const CartDemo: React.FC = () => {
                 <ShoppingCart
                     items={cartItems}
                     onItemsChange={setCartItems}
-                    discountPercentage={10} // 10% скидка
+                    discountPercentage={-10} // 10% скидка
                 />
             </Space>
         </div>
